@@ -5,18 +5,13 @@ public class RemoteControlExample {
 	public static void main(String[] args) {
 		RemoteControl rc;
 		rc = new Television();
-        rc.turnOn();
-        rc.setVolume(5);
-        rc.turnOff();		
-		
-		
-		
+		rc.turnOn();
+		rc.turnOff();
+		rc.setVolume(10);
 		rc = new Audio();
-        rc.turnOn();
-        rc.setVolume(5);
-        rc.turnOff();		
-		
-		
+		rc.turnOff();
+		rc.turnOn();
+		rc.setVolume(10);
 	}
 
 }

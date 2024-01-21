@@ -1,6 +1,6 @@
 package sec01.exam04;
 
-public class SupersonicAirplane extends Airplane {
+public class SupersonicAirPlane extends Airplane {
 	public static final int NORMAL = 1;
 	public static final int SUPERSONIC = 2;
 	

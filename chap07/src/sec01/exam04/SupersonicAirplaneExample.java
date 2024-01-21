@@ -1,14 +1,14 @@
 package sec01.exam04;
 
-public class SupersonicAirplaneExample {
+public class SuperSonicAirPlaneExample {
 
 	public static void main(String[] args) {
-		SupersonicAirplane sa = new SupersonicAirplane();		
+		SupersonicAirPlane sa = new SupersonicAirPlane();		
 		sa.takeOff();
 		sa.fly();		
-		sa.flyMode = SupersonicAirplane.SUPERSONIC;
+		sa.flyMode = SupersonicAirPlane.SUPERSONIC;
 		sa.fly();		
-		sa.flyMode = SupersonicAirplane.NORMAL;
+		sa.flyMode = SupersonicAirPlane.NORMAL;
 		sa.fly();		
 		sa.land();
 	}
